@@ -1,0 +1,135 @@
+body {
+  background-image: url("./assets/colors.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#outer-box {
+  width: 900px;
+  height: 600px;
+  border-radius: 20px;
+
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+#head {
+  height: 100px;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: #f907fc;
+  background-image: linear-gradient(135deg, #f907fc 0%, #05d6d9 74%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#person-box {
+  height: 80px;
+  margin-left: 16px;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#person-info p {
+  margin: 5px 0 0 8px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12;
+}
+
+#socials {
+  height: 80px;
+  width: 150px;
+  margin-right: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#inner-box {
+  height: 500px;
+  width: 900px;
+  display: flex;
+}
+
+#inner-box-left {
+  width: 450px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#interests {
+  height: 250px;
+  width: 434px;
+  margin-left: 16px;
+  margin-top: 16px;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#contact {
+  height: 218px;
+  width: 434px;
+  margin-left: 16px;
+  border-right: 1px solid white;
+
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#inner-box-right {
+  height: 500px;
+  width: 450px;
+  margin-left: 16px;
+
+  text-align: center;
+
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#inner-box-right table {
+  margin-top: 70px;
+}
+
+#inner-box-right h3 {
+  margin-top: 35px;
+}
+
+img {
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  border: 3px solid white;
+  object-fit: cover;
+}
+
+h1 {
+  color: white;
+  margin: 5px 0 0 8px;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+i:hover {
+  font-size: 40px;
+  cursor: pointer;
+
+  transition: 0.1s ease;
+}
