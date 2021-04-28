@@ -154,3 +154,15 @@ tr {
 .default-pointer {
   cursor: default;
 }
+
+.underline {
+  text-decoration: none;
+}
+
+.underline:hover {
+  text-decoration: underline;
+}
+
+.white {
+  color: white;
+}
