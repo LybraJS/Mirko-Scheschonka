@@ -127,11 +127,15 @@ h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+i {
+  transition: all 0.2s ease-out;
+}
+
 i:hover {
   font-size: 40px;
   cursor: pointer;
 
-  transition: 0.1s ease;
+  transition: 0.2s ease-out;
 }
 
 td {
